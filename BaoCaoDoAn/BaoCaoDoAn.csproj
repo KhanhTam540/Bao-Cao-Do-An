@@ -82,6 +82,12 @@
     <Compile Include="FormThucDon.Designer.cs">
       <DependentUpon>FormThucDon.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormXemChiTiet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormXemChiTiet.Designer.cs">
+      <DependentUpon>FormXemChiTiet.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FormChiTietMon.resx">
@@ -101,6 +107,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormThucDon.resx">
       <DependentUpon>FormThucDon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormXemChiTiet.resx">
+      <DependentUpon>FormXemChiTiet.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
