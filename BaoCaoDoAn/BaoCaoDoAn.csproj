@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FormChiTietMon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormChiTietMon.Designer.cs">
+      <DependentUpon>FormChiTietMon.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormDatMon.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -72,6 +78,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormChiTietMon.resx">
+      <DependentUpon>FormChiTietMon.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormDatMon.resx">
       <DependentUpon>FormDatMon.cs</DependentUpon>
     </EmbeddedResource>
