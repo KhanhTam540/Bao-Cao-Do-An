@@ -70,6 +70,12 @@
     <Compile Include="FormGioHang.Designer.cs">
       <DependentUpon>FormGioHang.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormThongBao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormThongBao.Designer.cs">
+      <DependentUpon>FormThongBao.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormThucDon.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -101,6 +107,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormGioHang.resx">
       <DependentUpon>FormGioHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormThongBao.resx">
+      <DependentUpon>FormThongBao.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormThucDon.resx">
       <DependentUpon>FormThucDon.cs</DependentUpon>
