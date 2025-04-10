@@ -76,6 +76,12 @@
     <Compile Include="FormMonAn.Designer.cs">
       <DependentUpon>FormMonAn.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormThongbao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormThongbao.Designer.cs">
+      <DependentUpon>FormThongbao.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormThucDon.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -110,6 +116,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormMonAn.resx">
       <DependentUpon>FormMonAn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormThongbao.resx">
+      <DependentUpon>FormThongbao.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormThucDon.resx">
       <DependentUpon>FormThucDon.cs</DependentUpon>
